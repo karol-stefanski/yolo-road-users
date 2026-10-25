@@ -17,7 +17,7 @@ Kod i wyniki z pracy magisterskiej **„Badanie skuteczności głębokich sieci 
 
 ## Zakres
 
-| | |
+| Element | Opis |
 |---|---|
 | Modele | YOLOv5, v8, v9, v10, YOLO11, YOLO12 — warianty n/s/m (w v9: t/s/m) |
 | Klasy (5) | Hulajnoga, Motocyklista, Pieszy, Rowerzysta, Samochód |
@@ -105,6 +105,10 @@ Opcjonalne powiadomienia na Discorda podczas treningu: ustaw zmienną środowisk
 - **FPS modelu** (tabela wyżej): `model.val()` na 600 obrazach walidacyjnych. Liczy tylko przetwarzanie obrazu przez sieć: preprocess, inferencję i postprocess (NMS).
 - **FPS rzeczywisty** (`predict.py`): liczba klatek podzielona przez czas przetworzenia całego filmu. Obejmuje dekodowanie wideo, detekcję, rysowanie ramek i zapis. Ustawienia: `conf=0.50`, `iou=0.50`, agnostic NMS. Oba porównywane modele działały na identycznym materiale.
 - **Udział narzutu poza wnioskowaniem** (59–80%) to **szacunek**, a nie pomiar profilerem: (czas pełnego cyklu − czas inferencji z `val()`) / czas pełnego cyklu.
+
+## Licencja
+
+Kod udostępniony na licencji [AGPL-3.0](LICENSE), tej samej co biblioteka Ultralytics, na której opiera się projekt.
 
 ## Autor
 
