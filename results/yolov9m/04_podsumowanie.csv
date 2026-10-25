@@ -1,0 +1,10 @@
+Wielkosc;Wartosc
+wagi;best.pt
+iou (NMS);0.7
+mAP50-95 wszystkie klasy;0.809191
+mAP50 wszystkie klasy;0.929572
+precyzja srednia;0.922920
+czulosc srednia;0.896322
+F1 srednie przy progu 0,50;0.908849
+F1 maksymalne;0.909679
+prog dla maksimum F1;0.489489

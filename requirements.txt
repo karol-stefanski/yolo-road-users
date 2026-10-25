@@ -1,0 +1,7 @@
+ultralytics==8.4.42
+torch>=2.6
+opencv-python
+pillow
+numpy
+requests
+matplotlib

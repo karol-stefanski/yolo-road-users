@@ -1,0 +1,10 @@
+# Konfiguracja zbioru danych w formacie Ultralytics YOLO.
+# Obrazy nie sa publikowane w repozytorium (licencje zrodel) - patrz README, sekcja "Zbior danych".
+# Sciezki wzgledem tego pliku; po umieszczeniu wlasnego zbioru w datasets/ wszystko zadziala bez zmian.
+path: ../datasets/road-users
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names: ['Hulajnoga', 'Motocyklista', 'Pieszy', 'Rowerzysta', 'Samochod']

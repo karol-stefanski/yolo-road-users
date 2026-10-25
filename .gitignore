@@ -1,0 +1,29 @@
+# Srodowisko i IDE
+.venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Zbior danych (nie publikujemy obrazow - licencje)
+datasets/
+train/
+valid/
+test/
+materialy/
+*.zip
+
+# Wagi i wyniki treningu (duze pliki; wagi udostepniane w Releases)
+*.pt
+*.onnx
+*.npz
+runs/
+Wyniki_Magisterka/
+WYNIKI_PREDYKCJI*/
+
+# Sekrety
+.env
+
+# Logi
+*.log
